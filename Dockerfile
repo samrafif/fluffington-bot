@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM python:3.9.5
+FROM python:3.12.11
 
 # Set pip to have no saved cache
 ENV PIP_NO_CACHE_DIR=false \
